@@ -7,7 +7,7 @@ DROP TABLE caballeros;
 
 TRUNCATE TABLE caballeros;
 
-CREATE TABLE caballeros (
+CREATE TABLE caballeros ( 
   caballero_id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
   nombre VARCHAR(30),
   armadura VARCHAR(30) UNIQUE,
